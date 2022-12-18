@@ -1,0 +1,38 @@
+
+         
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  main{
+    margin:2rem;
+  }
+  
+  textarea{
+    max-width:80%;
+    padding:.25rem;
+  }
+  
+  .comment-container , .comment-section{
+    margin-top:1rem;
+  }
+  
+  .comment-section{
+    border:2px solid #ddd;
+    padding:1rem;
+  /*   width:auto; */
+  }
+  
+  .error{
+   border:1px solid red;
+  }
+  
+  .active{
+    display:none;
+  }
+  
+  h6{
+    margin: 5px 20px;
+  }
